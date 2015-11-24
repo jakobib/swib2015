@@ -8,40 +8,31 @@ institute: Verbunzentrale des GBV (VZG)
 
 ---
 
+# Knowlede Organization Systems (KOS)
+
+* **Many KOS** exist: DDC, GND, LCSH, Getty-Thesaurus...\
+  [BARTOC.org](https://bartoc.org/) lists > 1.600 KOS
+
+* **Few Concordances** (mappings between KOS) available
+
 # KOS Mappings
 
-* **Many KOS**\
-  ([BARTOC.org](https://bartoc.org/) contains > 1.600)
+Help to find resources indexed with specialized KOS:
 
-* **Few Mappings**
+> DDC $\rightarrow$ Wikidata $\rightarrow$ Museum-Classification 
+$\Rightarrow$ Resource 
 
-Example:
+However:
 
-Note: Mappings are not only 1-1 (sameAs) but also:
-
-* broaderMatch, narrowerMatch...
-* 1-n, n-m
-
-# Mapping registries
-
-* Mappings are poorly documented (if available at all)
-* Mappings are hard to create
+* 1-to-1 mappings ("sameAs") only for simple cases
+* Creation of mappings takes time
+* Metadata about mappings required
 
 # Project coli-conc
 
-* editor/tool
-* registry
+1. Tool to facilitate manual creation/checking of mappings
 
-# JSKOS
+2. Registry to facilitate reuse of mappings 
 
-* JSKOS?
-* jskos-data? 
-
-# References
-
-<https://coli-conc.gbv.de/publications/>
-
-* technical reports
-* specifications
-* prototypes (Open Source)
+$\Rightarrow$ <https://coli-conc.gbv.de/>
 
